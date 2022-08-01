@@ -1,0 +1,30 @@
+{
+    "selectedLanguge": {
+      "arabic": {
+        "searchText":{
+            "Dubai":"دبي",
+            "Jeddah":"دةَّج"
+        },
+        "roomSelection": {
+            "singleRoomWithOneAdult":"1 غرفة، 1 بالغ، 0 أطفال",
+            "singleRoomWithTwoAdult":"غرفة واحدة، 2 بالغون، 0 أطفال",
+            "MoreOption": "خيارات إضافية"
+        },
+        "date": ""
+      },
+      "english": {
+        "searchText":{
+            "Dubai":"Dubai",
+            "Jeddah":"jedda",
+            "Riyadh":"riyadh"
+        },
+
+        "roomSelection": {
+            "singleRoomWithOneAdult":"1 Room, 1 Adult, 0 Children",
+            "singleRoomWithTwoAdult":"1 Room, 2 Adults, 0 Children",
+            "MoreOption": "More options"
+        },
+        "date": ""
+      }
+    }
+  }

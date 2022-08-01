@@ -1,0 +1,26 @@
+{
+  "name": "seera_frontend_automation",
+  "version": "1.0.0",
+  "description": "front automation of travel app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "chromeheadTestAR": "npm run test -- --headed -b chrome --env lang=arabic --reporter mochawesome",
+    "headlessTestAR": "npm run test --  --env lang=arabic --reporter mochawesome",
+    "chromeheadTestEN": "npm run test -- --headed -b chrome --env lang=english --reporter mochawesome",
+    "headlessTestEN": "npm run test -- --env lang=english --reporter mochawesome",
+    "recordDashBoardTest": "npm run test --record --key {provideyourkey} --reporter mochawesome",
+    "spec": "npm run test -- --spec \"cypress/e2e/login_spec.cy.js\"",
+    "jenkin": "npm run test  -- --parallel"
+  },
+  "author": "M.Rifad",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^10.3.1"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3"
+  }
+}

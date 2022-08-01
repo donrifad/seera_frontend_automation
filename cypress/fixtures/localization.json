@@ -1,0 +1,24 @@
+{
+  "language": {
+    "arabic": "العربية",
+    "english": "English"
+  },
+  "currency": {
+    "SAR": "SAR "
+  },
+  "hotelContact": {
+    "telphone": "+966554400000"
+  },
+  "selectedLanguge": {
+    "arabic": {
+      "retrivemybooking": "عرض حجزي",
+      "signIn": "تسجيل الدخول",
+      "visibleLanguageOption": "English"
+    },
+    "english": {
+      "retrivemybooking": "Retrieve my booking",
+      "signIn": "Sign in",
+      "visibleLanguageOption": "العربية"
+    }
+  }
+}
