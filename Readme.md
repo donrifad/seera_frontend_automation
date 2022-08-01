@@ -69,7 +69,7 @@ npx cypress open
         ```
     *   Commands run on chrome with english language
         ```
-         npm run chromeheadTestEng
+         npm run chromeheadTestEN
         ```
     *  Commands to run headless english and arabic
         ```
