@@ -34,6 +34,16 @@ node --version
 └── package.json                    => Project dependencies and execution commands
 ```
 
+**Configurations**
+<br>All configurations related to run time available on cypress.config.js 
+<br>You can add your additional url's and enviroments here
+```
+env: {
+    url: "https://almosafer.com/",
+    lang: "arabic",
+  },
+```
+
 **Project set up**
 <br>Clone the project from the repo</br>
 <br>Open the project from the editor </br>
