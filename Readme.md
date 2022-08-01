@@ -57,7 +57,7 @@ npm install
 * Run the below command, It will open the cypress dashboard  click the spec file it will run the file
 
 ```
-npx cypress run
+npx cypress open
 ```
 
 ## Execute the tests ##
