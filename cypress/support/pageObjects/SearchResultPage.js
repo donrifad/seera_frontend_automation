@@ -17,7 +17,7 @@ export default class SearchResultPage{
     }
 
     getHotelPriceLbl(){
-        return cy.get(this.lblHotelPrice,{timeout:20000})
+        return cy.get(this.lblHotelPrice,{timeout:30000})
     }
 
     getBtnLowestPriceFirst(){
@@ -25,7 +25,7 @@ export default class SearchResultPage{
     }
 
     getHotelSearchResultCount(){
-        return cy.get(this.lblHotelSearchResultCount,{timeout:20000})
+        return cy.get(this.lblHotelSearchResultCount,{timeout:30000})
     }
 
     getDrpDownSelectedRoomType(){

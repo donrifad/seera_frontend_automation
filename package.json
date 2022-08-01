@@ -10,8 +10,8 @@
     "chromeheadTestEN": "npm run test -- --headed -b chrome --env lang=english --reporter mochawesome",
     "headlessTestEN": "npm run test -- --env lang=english --reporter mochawesome",
     "recordDashBoardTest": "npm run test --record --key {provideyourkey} --reporter mochawesome",
-    "spec": "npm run test -- --spec \"cypress/e2e/login_spec.cy.js\"",
-    "jenkin": "npm run test  -- --parallel"
+    "spec": "npm run test -- --spec \"cypress/e2e/seera_e2e_spec.cy.js\"",
+    "jenkinstest": "npm run test  -- --parallel"
   },
   "author": "M.Rifad",
   "license": "MIT",

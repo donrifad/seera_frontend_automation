@@ -3,8 +3,10 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   chromeWebSecurity: false,
   defaultCommandTimeout: 8000,
-  pageLoadTimeout: 30000,
+  pageLoadTimeout: 20000,
   reporter: 'mochawesome',
+  viewportHeight: 660,
+  viewportWidth: 1000,
 
   env: {
     url: "https://almosafer.com/",

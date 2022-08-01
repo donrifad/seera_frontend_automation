@@ -52,7 +52,13 @@ env: {
 ```
 npm install
 ```
+## Execute the tests locally in cypress dashboard ##
+*  Navigate to root folder of your project
+* Run the below command, It will open the cypress dashboard  click the spec file it will run the file
 
+```
+npx cypress run
+```
 
 ## Execute the tests ##
 * All good, after all dependancies are downloaded good to run the tests

@@ -48,11 +48,4 @@ searchHotels(location,roomType){
     cy.get(this.btnSearch).click()
 }
 
-// cy.xpath("//*[@data-testid='AutoCompleteResultsList']/li[contains(@data-testid,'AutoCompleteResultItem')]").each(($e1, index, $list) => {
-//       if (index == 0) {
-//         cy.wrap($e1).click()
-//       }
-//     })
-
-
 }
