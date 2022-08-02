@@ -3,7 +3,7 @@
       "arabic": {
         "searchText":{
             "Dubai":"دبي",
-            "Jeddah":"دةَّج"
+            "Jeddah":"جدة"
         },
         "roomSelection": {
             "singleRoomWithOneAdult":"1 غرفة، 1 بالغ، 0 أطفال",
@@ -15,8 +15,8 @@
       "english": {
         "searchText":{
             "Dubai":"Dubai",
-            "Jeddah":"jedda",
-            "Riyadh":"riyadh"
+            "Jeddah":"Jeddah",
+            "Riyadh":"Riyadh"
         },
 
         "roomSelection": {
