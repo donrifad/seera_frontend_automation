@@ -84,6 +84,24 @@ npx cypress open
 npx cypress run -b {browser} --headed --spec {your spec file} --env lang={language} --env url={url} --reporter mochawesome
 ```
 
+## View the results on cypress dash board ##
+* Add your project id at cypress.config.js
+```
+  projectId: "a5zbka",
+
+```
+* Also add your project key at package.json file
+```
+    "recordDashBoardTest": "npm run test -- --record --key {provideyourkey} --reporter mochawesome",
+```
+* after that run the following command
+```
+npm run recordDashBoardTest
+```
+* After completing the execution login to your cypress dashboard and view the result https://dashboard.cypress.io/
+
+## Mocha reports ##
+* This report will be availble at mochaawesome-report folder in your local execution node
 * After completing the  test run mocha awesome reports looks like below.
 <img width="1790" alt="Screenshot 2022-08-01 at 17 39 58" src="https://user-images.githubusercontent.com/5151534/182146828-b69a5286-d3f5-494b-84b8-6d0854678f9f.png">
 
